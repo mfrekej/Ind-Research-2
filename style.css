@@ -1,0 +1,71 @@
+body {
+    /**background: linear-gradient(to right, #ffffff, #A1FFC0);*/
+}
+#main {
+    text-align: center;
+}
+header {
+    text-align: left;
+}
+#item {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    max-width: 100%;
+    border-bottom: 1px solid black;
+}
+
+#prod-img {
+    width: 75px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#desc {
+    font-size: 0.9em; 
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#price {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+#cart-add {
+    padding: 5px 10px; 
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.navbar {
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Dark grey background */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding above and below the navbar */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow under the navbar */
+}
+
+.navbar ul {
+    list-style-type: none; /* Removes default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Aligns items horizontally */
+    justify-content: space-around; /* Distributes space evenly between items */
+}
+
+.navbar li {
+    margin-right: 20px; /* Adds some space between each list item */
+}
+
+.navbar a {
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline */
+}
